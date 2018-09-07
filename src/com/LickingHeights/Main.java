@@ -10,43 +10,86 @@ String greeting;
 String userName;
 String userPerson;
 String person;
+String userPlace;
+String place;  
+String person2;
+String userPerson2;  
+String verb;
+String userIngVerb;
+String animal;
+String userAnimal;  
+String verb2;
+String userIngVerb2;    
+String animal2;
+String userAnimal2;        
+String name;        
+String userPersonName;        
+String word;
+String userRandomWord;
+String adjective;        
+String userAdjective;        
+String profession;        
+String userProfession;        
+        
+        
+        
+        
+        
+        
 //initializing
 keyboard= new Scanner(System.in);
 greeting= "userName";
 person= "userPerson";
+place= "userPlace";        
+person2= "userPerson2";
+verb= "userIngVerb";
+animal= "userAnimal";
+verb2= "userIngVerb2";
+animal2= "userAnimal2";
+name= "userPersonName";        
+word= "userRandomWord;        
+adjective= "userAdjective";        
+profession= "userProfession;        
 
-
-
-
+    
+    
+    
 System.out.println("Hello! Welcome to my Madlib.");
 userName= keyboard.nextLine();
 System.out.println(greeting + " " +userName);
 System.out.println("Give ma a person");
 userPerson= keyboard.nextLine();
 System.out.println(person + " " +userPerson);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+System.out.println("Now give me a place");
+userPlace= keyboard.nextLine();        
+System.out.println(place + " " +userPlace);
+System.out.println("Great! He or She?");
+userPerson2= keyboard.nextLine();        
+System.out.println(person2 + " " +userPerson2);
+System.out.println("A verb ending in ing");        
+userIngVerb= keyboard.nextLine();
+System.out.println(verb + " " +userIngVerb);
+System.out.println("An animal");
+userAnimal= keyboard.nextLine();
+System.out.println(animal + " " +userAnimal);
+System.out.println("Give me another verb ending in ing");
+userIngVerb2= keyboard.nextLine();
+System.out.println(verb2 + " " +userIngVerb2);
+System.out.println("Give me another animal");
+userAnimal2= keyboard.nextLine();        
+System.out.println(animal2 + " " +userAnimal2);
+System.out.println("The name of a person");        
+userPersonName= keyboard.nextLine();
+System.out.println(name + " " +userPersonName);
+System.out.println("A random word");
+userRandomWord= keyboard.nextLine;
+System.out.println(word + " " +userRandomWord);
+System.out.println("Give me an adjective");        
+userAdjective= keyboard.nextLine();
+System.out.println(adjective + " " +userAdjective);        
+System.out.println("Give me a profession");
+userProfession= keyboard.nextLine();
+System.out.println(profession + " " +userProfession);
 
 
 
