@@ -30,10 +30,10 @@ String adjective;
 String userAdjective;        
 String profession;        
 String userProfession;        
-        
-        
-        
-        
+String food;        
+String userFood;        
+String number;        
+String userNumber;        
         
         
 //initializing
@@ -50,8 +50,8 @@ name= "userPersonName";
 word= "userRandomWord;        
 adjective= "userAdjective";        
 profession= "userProfession;        
-
-    
+food= "userFood";
+number= "userNumber";    
     
     
 System.out.println("Hello! Welcome to my Madlib.");
@@ -90,10 +90,12 @@ System.out.println(adjective + " " +userAdjective);
 System.out.println("Give me a profession");
 userProfession= keyboard.nextLine();
 System.out.println(profession + " " +userProfession);
-
-
-
-
+System.out.println("Now a food");
+userFood= keyboard.nextLine();        
+System.out.println(food + " " +userFood);
+System.out.println("A number");
+userNumber= keyboard.nextLine();
+System.out.println(number + " " +userNumber);
 
 
 
@@ -104,8 +106,8 @@ and found some (animal).
 It was (verb ending in ing) with ( animal 2).
 That is when (name of person) said (random word).
 After the (adjective) word was said both of the animals began to
-stare at the (profession) as if he was a (food 2).
-Once the (number) minutes of (adjective) staring was over,
+stare at the (profession) as if he was a (food).
+Once the (number) minutes of (adjective2) staring was over,
 everyone ran until they got to a (noun). "Nobody touch the (random object)"
 (name of famous person) shouted. Just then a (mystical animal) came out of (place 2)
 and (action word) all over the (a group of people).
